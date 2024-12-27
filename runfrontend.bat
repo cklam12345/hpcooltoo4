@@ -1,5 +1,5 @@
-set "repoDir=%~dp0hpcooltoo4"
+set "repoDir=%UserProfile%\Documents\installcool\hpcooltoo4"
 set "backendDir=%repoDir%\backend"
-cd %backendDir% ;
+cd %backendDir%
 .\venv\Scripts\activate.bat 
 .\start_windows.bat
