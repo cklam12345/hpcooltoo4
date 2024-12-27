@@ -1,8 +1,8 @@
-set "repoDir=%~dp0hpcooltoo4"
+set "repoDir=%UserProfile%\Documents\installcool\hpcooltoo4"
 set "backendDir=%repoDir%\backend"
 copy .env.example .env 
-npm install 
-npm run build 
+cmd /c npm install 
+cmd /c npm run build 
 cd %backendDir%
 pip install -U virtualenv
 python -m virtualenv venv 
