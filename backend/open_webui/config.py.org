@@ -106,79 +106,50 @@ DEFAULT_CONFIG = {
     "ui": {
         "default_locale": "",
         "prompt_suggestions": [
- 
-{
-        "title": [
-            "Christmas Gift Ideas",
-            "Presents for Family",
+            {
+                "title": [
+                    "Help me study",
+                    "vocabulary for a college entrance exam",
+                ],
+                "content": "Help me study vocabulary: write a sentence for me to fill in the blank, and I'll try to pick the correct option.",
+            },
+            {
+                "title": [
+                    "Give me ideas",
+                    "for what to do with my kids' art",
+                ],
+                "content": "What are 5 creative things I could do with my kids' art? I don't want to throw them away, but it's also so much clutter.",
+            },
+            {
+                "title": ["Tell me a fun fact", "about the Roman Empire"],
+                "content": "Tell me a random fun fact about the Roman Empire",
+            },
+            {
+                "title": [
+                    "Show me a code snippet",
+                    "of a website's sticky header",
+                ],
+                "content": "Show me a code snippet of a website's sticky header in CSS and JavaScript.",
+            },
+            {
+                "title": [
+                    "Explain options trading",
+                    "if I'm familiar with buying and selling stocks",
+                ],
+                "content": "Explain options trading in simple terms if I'm familiar with buying and selling stocks.",
+            },
+            {
+                "title": ["Overcome procrastination", "give me tips"],
+                "content": "Could you start by asking me about instances when I procrastinate the most and then give me some suggestions to overcome it?",
+            },
+            {
+                "title": [
+                    "Grammar check",
+                    "rewrite it for better readability ",
+                ],
+                "content": 'Check the following sentence for grammar and clarity: "[sentence]". Rewrite it for better readability while maintaining its original meaning.',
+            },
         ],
-        "content": "Help me find the perfect Christmas gift for my family members. Can you suggest some popular items in the store?",
-    },
-    {
-        "title": [
-            "Office Wear Recommendations",
-            "Meeting Client Outfits",
-        ],
-        "content": "I have an important client meeting next week. Can you recommend some stylish office wear options available in the store?",
-    },
-    {
-        "title": [
-            "Shoe Selection",
-            "Footwear for Different Occasions",
-        ],
-        "content": "I'm looking for shoes suitable for both formal and casual occasions. What options do you have in the store?",
-    },
-    {
-        "title": [
-            "Fashion Trends",
-            "Latest Fashion",
-        ],
-        "content": "What are the latest fashion trends this season? Can you show me some trendy items available in the store?",
-    },
-    {
-        "title": [
-            "Gift Wrapping Services",
-            "Christmas Wrapping",
-        ],
-        "content": "Do you offer gift wrapping services for Christmas presents? If so, can you help me with that?",
-    },
-    {
-        "title": [
-            "Accessories for Office Wear",
-            "Completing the Look",
-        ],
-        "content": "I need accessories to complement my office wear. Can you suggest some items available in the store?",
-    },
-    {
-        "title": [
-            "Personalized Gift Suggestions",
-            "Unique Presents",
-        ],
-        "content": "I'm looking for unique and personalized gifts for my family. Can you recommend some options?",
-    },
-    {
-        "title": [
-            "Winter Fashion",
-            "Warm Clothing",
-        ],
-        "content": "What are some stylish and warm clothing options for the winter season available in the store?",
-    },
-    {
-        "title": [
-            "Shoe Care Products",
-            "Maintaining Footwear",
-        ],
-        "content": "Do you have any products for maintaining and caring for shoes? Can you show me what's available?",
-    },
-    {
-        "title": [
-            "Holiday Party Outfits",
-            "Festive Wear",
-        ],
-        "content": "I need an outfit for a holiday party. Can you suggest some festive wear options available in the store?",
-    },
-
-	],
     },
 }
 
