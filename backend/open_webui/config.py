@@ -123,10 +123,10 @@ DEFAULT_CONFIG = {
     },
     {
         "title": [
-            "Shoe Selection",
-            "Footwear for Different Occasions",
+            "Kitchen Facet Repair",
+            "Parts for Leaking kitchen sink",
         ],
-        "content": "I'm looking for shoes suitable for both formal and casual occasions. What options do you have in the store?",
+        "content": "My Kitchen sink facet is leaking, I need to find parts to fix it?",
     },
     {
         "title": [
