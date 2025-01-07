@@ -31,4 +31,4 @@ IF "%WEBUI_SECRET_KEY%%WEBUI_JWT_SECRET_KEY%" == " " (
 :: Execute uvicorn
 SET "WEBUI_SECRET_KEY=%WEBUI_SECRET_KEY%"
 start https://localhost:8080
-uvicorn open_webui.main:app --ssl-certfile="C:\Users\LaCh616\Documents\installcool\hpcooltoo4\cool.pem" --ssl-keyfile="C:\Users\LaCh616\Documents\installcool\hpcooltoo4\cool.key" --host "%HOST%" --port "%PORT%" --forwarded-allow-ips '*'
+uvicorn open_webui.main:app --ssl-certfile="%UserProfile%\Documents\installcool\hpcooltoo4\cool.pem" --ssl-keyfile="%UserProfile%\Documents\installcool\hpcooltoo4\cool.key" --host "%HOST%" --port "%PORT%" --forwarded-allow-ips '*'
