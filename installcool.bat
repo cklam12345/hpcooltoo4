@@ -2,7 +2,7 @@
 setlocal
 
 :: Define variables
-set "repoURL=git@github.com:cklam12345/hpcooltoo4.git"
+set "repoURL=https://github.com/cklam12345/hpcooltoo4.git"
 set "repoDir=%~dp0hpcooltoo4"
 set "backendDir=%repoDir%\backend"
 set "shortcutName=hpcooltoo4"
